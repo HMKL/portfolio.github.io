@@ -3,6 +3,29 @@
 body {
   font-family: "Roboto", sans-serif !important;
 }
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  #navleft > div > a {
+    text-align: center;
+  }
+} */
+/* @media (min-width: 576px) {
+  #test {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  #test {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+}
+@media (min-width: 992px) {
+  #test {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+} */
 .nav-link:hover {
   /* color: red !important; */
   transition: all 0.4s ease-in-out;
@@ -25,7 +48,7 @@ body {
   background-color: black;
   left: 50%;
   bottom: -10px;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 
 .under:hover .line::after {
@@ -43,7 +66,7 @@ body {
   text-align: center;
   cursor: default;
   /* background: #42b078; */
-  background-color: lightgray;
+  /* background-color: lightgray; */
 }
 
 .hovereffect .overlay {
@@ -61,18 +84,13 @@ body {
   position: relative;
   max-width: none;
   width: calc(100% + 20px);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-10px, 0, 0);
   transform: translate3d(-10px, 0, 0);
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
 .hovereffect:hover img {
   opacity: 0.4;
-  filter: alpha(opacity=40);
-  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
@@ -95,14 +113,11 @@ body {
   height: 2px;
   background: #fff;
   content: "";
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(-100%, 0, 0);
+  transition: transform 0.35s ease-in-out;
   transform: translate3d(-100%, 0, 0);
 }
 
 .hovereffect:hover h2:after {
-  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
@@ -110,20 +125,42 @@ body {
 .hovereffect p {
   color: #fff;
   opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
 }
 
 .hovereffect:hover a,
 .hovereffect:hover p {
   opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 ._1 {
   margin: 0px 10px 0px 10px !important;
+}
+
+/* #test {
+  background-image: url(./photo/2.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+} */
+
+.inherit {
+  height: 100vh;
+  background-color: red;
+  transition-duration: 0.3s;
+  margin-top: 8px;
+}
+.bla {
+  text-align: center;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+h1 {
+  font-size: 4rem;
 }
