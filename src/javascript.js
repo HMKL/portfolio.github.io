@@ -46,7 +46,7 @@ collapseAdd.addEventListener('click', () => {
   }
 });
 
-const width = window.matchMedia('(max-width:769px)');
+const width = window.matchMedia('(max-width:667px)');
 const allDivs = document.querySelectorAll('.container > div');
 const allA = document.querySelectorAll('#navleft > div > a');
 allA.forEach((square) => {
@@ -55,19 +55,15 @@ allA.forEach((square) => {
 allDivs.forEach((div) => {
   div.classList.add('col-12');
 });
-function screen(a) {
-  if (a.matches) {
-    for (let i = 0; i < allDivs.length; i += 1) {
-      allA[i].classList.add('text-center');
-      document.querySelector('#navbarCollapse').classList.add('inherit');
-      getRows[0].classList.add('flex-column-reverse', 'flex-md-row');
-    }
+
+function checkWidth(e) {
+  if (e.matches) {
+    document.querySelector('#navbarCollapse').classList.add('inherit');
+    getRows[0].classList.add('flex-column-reverse', 'flex-md-row');
   } else {
-    for (let y = 0; y < allDivs.length; y += 1) {
-      allA[y].classList.remove('text-center');
-      document.querySelector('#navbarCollapse').classList.remove('inherit');
-      getRows[0].classList.remove('flex-column-reverse', 'flex-md-row');
-    }
+    document.querySelector('#navbarCollapse').classList.remove('inherit');
+    getRows[0].classList.remove('flex-column-reverse', 'flex-md-row');
   }
 }
-width.addEventListener('change', screen);
+checkWidth(width);
+width.addEventListener('change', checkWidth);
