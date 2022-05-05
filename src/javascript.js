@@ -5,8 +5,11 @@ const getDescription = document.querySelectorAll('.container > div >.row > div '
 getDescription[0].classList.add('col-md-4');
 getDescription[1].classList.add('col-md-8');
 const getRows = document.querySelectorAll('.row');
-const getContainer = document.querySelectorAll('.container-fluid');
-getContainer[1].classList.add('_1');
+const getcontainerBtn = document.querySelectorAll('.buttons > div');
+getcontainerBtn[0].classList.add('containerBtn');
+const getContainer = document.querySelectorAll('.container');
+const getContainerFluid = document.querySelectorAll('.container-fluid');
+getContainerFluid[1].classList.add('_1');
 
 const addClass = document.getElementById('navleft').querySelectorAll('div');
 for (let i = 0; i < addClass.length; i += 1) {
@@ -35,23 +38,25 @@ const collapseAdd = document.getElementById('testBtn');
 collapseAdd.addEventListener('click', () => {
   count += 1;
   if (count === 1) {
-    document.querySelector('#navbarCollapse').classList.add('inherit');
-    document.querySelector('.container').style.display = 'none';
+    // document.querySelector('#navbarCollapse').classList.add('inherit');
+    getContainer[0].style.display = 'none';
+    getContainerFluid[2].style.display = 'none';
     document.querySelector('#testBtn > span').innerHTML = '<i class="fa-solid fa-grip-lines-vertical"></i>';
   } else {
-    document.querySelector('#navbarCollapse').classList.remove('inherit');
-    document.querySelector('.container').style.display = 'block';
+    // document.querySelector('#navbarCollapse').classList.remove('inherit');
+    getContainer[0].style.display = 'block';
+    getContainerFluid[2].style.display = 'block';
     document.querySelector('#testBtn > span').innerHTML = '<i class="fa-solid fa-bars"></i>';
     count -= 2;
   }
 });
 
-const width = window.matchMedia('(max-width:667px)');
+const width = window.matchMedia('(max-width:769px)');
 const allDivs = document.querySelectorAll('.container > div');
 const allA = document.querySelectorAll('#navleft > div > a');
-allA.forEach((square) => {
-  square.classList.add('text-center');
-});
+// allA.forEach((square) => {
+//   square.classList.add('text');
+// });
 allDivs.forEach((div) => {
   div.classList.add('col-12');
 });
@@ -60,9 +65,17 @@ function checkWidth(e) {
   if (e.matches) {
     document.querySelector('#navbarCollapse').classList.add('inherit');
     getRows[0].classList.add('flex-column-reverse', 'flex-md-row');
+    allA.forEach((square) => {
+      square.classList.add('text');
+    });
   } else {
     document.querySelector('#navbarCollapse').classList.remove('inherit');
+    getContainer[0].style.display = 'block';
+    document.querySelector('#testBtn').classList.add('navbar-toggler', 'collapsed');
     getRows[0].classList.remove('flex-column-reverse', 'flex-md-row');
+    allA.forEach((square) => {
+      square.classList.remove('text');
+    });
   }
 }
 checkWidth(width);
