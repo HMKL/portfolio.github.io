@@ -20,11 +20,6 @@ addClass.forEach((element) => {
   });
 });
 
-const row = getRows[10].querySelectorAll('div > button');
-row.forEach((elem) => {
-  elem.classList.add('bg-secondary');
-});
-
 let count = 0;
 const collapseAdd = document.getElementById('testBtn');
 collapseAdd.addEventListener('click', () => {

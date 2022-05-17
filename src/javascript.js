@@ -9,10 +9,10 @@ getcontainerBtn[0].classList.add('containerBtn');
 const getContainer = document.querySelectorAll('.container');
 const getContainerFluid = document.querySelectorAll('.container-fluid');
 getContainerFluid[1].classList.add('_1');
-const row = getRows[1].querySelectorAll('div > button');
-row.forEach((elem) => {
-  elem.classList.add('bg-secondary');
-});
+// const row = getRows[1].querySelectorAll('div > button');
+// row.forEach((elem) => {
+//   elem.classList.add('bg-secondary');
+// });
 
 const addClass = document.querySelectorAll('#navleft > div');
 addClass.forEach((element) => {
