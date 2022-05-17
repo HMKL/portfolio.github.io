@@ -1,20 +1,13 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable max-len */
 /* eslint-disable no-console */
-const getDescription = document.querySelectorAll('.container > div >.row > div ');
-
-const getRows = document.querySelectorAll('.row');
-const getcontainerBtn = document.querySelectorAll('.btns > div');
-getcontainerBtn[0].classList.add('containerBtn');
-const getContainer = document.querySelectorAll('.container');
 const getContainerFluid = document.querySelectorAll('.container-fluid');
-getContainerFluid[1].classList.add('_1');
-const row = getRows[1].querySelectorAll('div > button');
-row.forEach((elem) => {
-  elem.classList.add('bg-secondary');
-});
-
+const getContainer = document.querySelectorAll('.container');
+const getRows = document.querySelectorAll('.row');
+const allA = document.querySelectorAll('#navleft > div > a');
 const addClass = document.querySelectorAll('#navleft > div');
+getContainerFluid[1].classList.add('_1');
+
 addClass.forEach((element) => {
   element.addEventListener('mouseenter', () => {
     element.classList.add('under');
@@ -25,6 +18,11 @@ addClass.forEach((element) => {
   element.addEventListener('mouseout', () => {
     element.removeAttribute('class', 'under');
   });
+});
+
+const row = getRows[10].querySelectorAll('div > button');
+row.forEach((elem) => {
+  elem.classList.add('bg-secondary');
 });
 
 let count = 0;
@@ -49,22 +47,22 @@ collapseAdd.addEventListener('click', () => {
 });
 
 const width = window.matchMedia('(max-width:769px)');
-const allA = document.querySelectorAll('#navleft > div > a');
 
 function checkWidth(e) {
   if (e.matches) {
-    getRows[0].classList.add('flex-column-reverse', 'flex-md-row');
-    getRows[1].classList.add('_5');
-    getRows[1].classList.remove('_2');
+    getRows[10].classList.add('_5', '_6');
+    getRows[10].classList.remove('_2');
+    // getRows[10].classList.remove('_2');
+    // getContainerFluid[4].classList.add('_3');
+    getContainerFluid[4].classList.remove('_3');
     allA.forEach((square) => {
       square.classList.add('text');
     });
   } else {
-    getContainer[0].style.display = 'block';
-    document.querySelector('#testBtn').classList.add('navbar-toggler', 'collapsed');
-    getRows[0].classList.remove('flex-column-reverse', 'flex-md-row');
-    getRows[1].classList.remove('_5');
-    getRows[1].classList.add('_2');
+    getRows[10].classList.remove('_5', '_6');
+    getRows[10].classList.add('_2');
+    getContainerFluid[4].classList.add('_3');
+    // getContainerFluid[4].classList.remove('_6');
     allA.forEach((square) => {
       square.classList.remove('text');
     });

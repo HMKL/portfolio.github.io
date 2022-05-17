@@ -13,14 +13,14 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
     <title>Portofolio</title>
 </head>
 
 <body>
-
+    <!-- min-vh-100 d-flex flex-column 
+    justify-content-between -->
     <div class="container-fluid min-vh-100 d-flex flex-column 
-    justify-content-between">
+    justify-content-between bg-secondary">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a href="" class="navbar-brand">Catalin Baciu</a>
@@ -30,7 +30,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto gap-3 " id="navleft">
-                        <div><a href="#" class="nav-item nav-link line">Resume</a></div>
+                        <div><a href="/src/resume.html" class="nav-item nav-link line">Resume</a></div>
                         <div><a href="#" class="nav-item nav-link line">Projects</a></div>
                         <div><a href="#" class="nav-item nav-link line">Contact</a></div>
                     </div>
@@ -40,71 +40,69 @@
 
 
 
-        <div class="container mb-auto">
-            <div>
+        <div class="container-fluid   mt-3">
+            <div class="container">
                 <div class="row">
-                    <div>
-                        <img src="./src/photo/2.jpg" class="img-fluid">
+                    <div class="col-md-6 text-center">
+                        <!-- <img class="img-fluid" src="./src/photo/watch.png"> -->
+                        <img src="./src/photo/1651851644778.jfif" style="border-radius: 50%;">
                     </div>
-                    <div>
-                        <h1>Hello</h1>
-                        <h4>A Bit About Me</h4>
-                        <p>Junior Web Developer specializing in front end development and passion for
-                            responsive website design
-                            using numerous programming languages including HTML, CSS, JavaScript, Bootstrap.</p>
-                        <section class="buttons">
-                            <div>
-                                <a href="#" class="mainbtn btn-2">Resume</a>
-                                <a href="#" class="mainbtn btn-2">Projects</a>
-                                <a href="#" class="mainbtn btn-2">Contact</a>
+                    <div class="col-md-6 align-self-center text-center text-md-left">
+                        <div class="content">
+                            <h1 class="text-white">HELLO</h1>
+                            <p>A bit About Me</p>
+                            <p>Junior Web Developer specializing in front end development and passion for responsive
+                                website design using numerous programming languages including HTML, CSS, JavaScript,
+                                Bootstrap.</p>
+                            <div class="btns">
+                                <div class="containerBtn">
+                                    <a href="/src/resume.html" class="mainbtn btn-2">Resume</a>
+                                    <a href="#!" class="mainbtn btn-2">Projects</a>
+                                    <a href="#!" class="mainbtn btn-2">Contact</a>
+                                </div>
                             </div>
-                        </section>
-
+                        </div>
                     </div>
-
-                </div>
-            </div>
-            <!-- <div>
-
-                e de test
-
-            </div> -->
-
-        </div>
-
-
-
-
-
-
-
-        <div class="container-fluid border-top">
-            <div class="container mt-auto">
-                <div class="row">
-                    <div class="col-sm-3 col-lg-3 ">
-                        <p>
-                            Phone
-                        </p>
-                        <p>
-                            123-456-7890
-                        </p>
-                    </div>
-                    <div class="col-sm-3 col-lg-3 ">
-                        <p>Email</p>
-                        <p>bla@gmail.com</p>
-                    </div>
-                    <div class="col-sm-3 col-lg-3 ">
-                        <p>Follow Me</p>
-                        <p>linkedin</p>
-                    </div>
-                    <div class="col-sm-3 col-lg-3 ">
-                        <p>© 2022 By Me :).</p>
-                    </div>
-
                 </div>
             </div>
         </div>
 
+
+
+
+        <div class="container-fluid">
+            <div class="container-fluid _3">
+                <div class="row g-1 _2">
+                    <div class="col-sm-6 col-lg-3">
+                        <p>
+                            © 2022 By Catalin Baciu.
+                            Proudly created</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <button class='btn1 one'>
+                            <div class='layer'>1234789</div>
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                    </div>
+
+
+                    <div class="col-sm-6 col-lg-3">
+                        <button class='btn1 one'>
+                            <div class='layer'>etc@gmail.com</div>
+                            <i class="fa-solid fa-envelope"></i>
+                        </button>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <button class='btn1 one'>
+                            <div class='layer'>
+                                <a href="https://www.google.com"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                            <i class="fa-solid fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
