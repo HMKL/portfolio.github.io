@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Ms+Madi&family=Poppins:ital,wght@0,100;0,400;0,500;1,100&family=Source+Sans+Pro&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 * {
   transition-property: all;
   transition-duration: 0.6s;
@@ -12,6 +13,7 @@ body {
 
 .nav-link:hover {
   transition: all 0.4s ease-in-out;
+  color: #f44336 !important;
 }
 
 .container-fluid {
@@ -260,6 +262,21 @@ h1 {
   transition: all 0.5s ease;
   background-color: transparent;
 }
-.fa-brands {
-  color: white;
+.fa {
+  color: black;
+  font-size: 1.25rem;
 }
+
+#app {
+  font-size: 1.4rem;
+  padding: 20px;
+  /* box-shadow: 5px 5px 22px 5px #000000; */
+  /* border-radius: 20px; */
+  /* line-height: 78px;
+  min-height: 100px; */
+  /* border-left: 2px solid black;
+  border-right: 2px solid black; */
+}
+/* .Typewriter__cursor {
+  display: none;
+} */

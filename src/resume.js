@@ -7,6 +7,11 @@ const getRows = document.querySelectorAll('.row');
 const allA = document.querySelectorAll('#navleft > div > a');
 const addClass = document.querySelectorAll('#navleft > div');
 getContainerFluid[1].classList.add('_1');
+const cv = document.querySelectorAll('i');
+
+for (let a = 1; a < cv.length; a += 1) {
+  cv[a].classList.add('fa');
+}
 
 addClass.forEach((element) => {
   element.addEventListener('mouseenter', () => {

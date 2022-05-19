@@ -72,3 +72,44 @@ function checkWidth(e) {
 }
 checkWidth(width);
 width.addEventListener('change', checkWidth);
+
+const cv = document.querySelectorAll('i');
+
+for (let a = 1; a < cv.length; a += 1) {
+  cv[a].classList.add('fa');
+}
+
+const app = document.getElementById('app');
+
+const typewriter = new Typewriter(app, {
+  // loop: true,
+  cursor: '_',
+});
+
+// typewriter.typeString('<h4>HTML</h4>')
+//   .pauseFor(250)
+//   .deleteAll()
+//   .typeString('<h4>CSS</h4>')
+//   .pauseFor(250)
+//   .deleteChars(7)
+//   .typeString('<h4>JavaScript</h4>')
+//   .pauseFor(250)
+//   .typeString('<h4>Bootstrap</h4>')
+//   .pauseFor(250)
+//   .start();
+
+typewriter
+  .pauseFor(300)
+  .typeString('<strong>I\'m Catalin.</strong>')
+  .pauseFor(1000)
+  .typeString('<strong><span style="color: #0000008c;">Creative.</span></strong>')
+  .pauseFor(1000)
+  .deleteChars(9)
+  .typeString('<strong><span style="color: #0000008c;">Design.</span></strong>')
+  .pauseFor(1000)
+  .deleteChars(7)
+  // .deleteAll()
+  // .typeString('<strong> Developer.</strong>')
+  .typeString('<strong><span style="color: #0000008c;">Developer.</span></strong>')
+  .pauseFor(3000)
+  .start();
