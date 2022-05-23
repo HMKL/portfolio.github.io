@@ -2,17 +2,16 @@
 /* eslint-disable max-len */
 /* eslint-disable no-console */
 const getDescription = document.querySelectorAll('.container > div >.row > div ');
-
+const allP = document.querySelectorAll('p');
 const getRows = document.querySelectorAll('.row');
 const getcontainerBtn = document.querySelectorAll('.btns > div');
 getcontainerBtn[0].classList.add('containerBtn');
 const getContainer = document.querySelectorAll('.container');
 const getContainerFluid = document.querySelectorAll('.container-fluid');
 getContainerFluid[1].classList.add('_1');
-// const row = getRows[1].querySelectorAll('div > button');
-// row.forEach((elem) => {
-//   elem.classList.add('bg-secondary');
-// });
+const photo = document.querySelector('img').addEventListener('contextmenu', (p) => {
+  p.preventDefault();
+});
 
 const addClass = document.querySelectorAll('#navleft > div');
 addClass.forEach((element) => {
@@ -56,6 +55,9 @@ function checkWidth(e) {
     getRows[0].classList.add('flex-column-reverse', 'flex-md-row');
     getRows[1].classList.add('_5');
     getRows[1].classList.remove('_2');
+    getContainerFluid[4].classList.add('_6');
+    getContainerFluid[4].classList.remove('_3');
+    allP[0].setAttribute('class', '_7');
     allA.forEach((square) => {
       square.classList.add('text');
     });
@@ -65,6 +67,9 @@ function checkWidth(e) {
     getRows[0].classList.remove('flex-column-reverse', 'flex-md-row');
     getRows[1].classList.remove('_5');
     getRows[1].classList.add('_2');
+    getContainerFluid[4].classList.add('_3');
+    getContainerFluid[4].classList.remove('_6');
+    allP[0].removeAttribute('class', '_7');
     allA.forEach((square) => {
       square.classList.remove('text');
     });
@@ -86,18 +91,6 @@ const typewriter = new Typewriter(app, {
   cursor: '_',
 });
 
-// typewriter.typeString('<h4>HTML</h4>')
-//   .pauseFor(250)
-//   .deleteAll()
-//   .typeString('<h4>CSS</h4>')
-//   .pauseFor(250)
-//   .deleteChars(7)
-//   .typeString('<h4>JavaScript</h4>')
-//   .pauseFor(250)
-//   .typeString('<h4>Bootstrap</h4>')
-//   .pauseFor(250)
-//   .start();
-
 typewriter
   .pauseFor(300)
   .typeString('<strong>I\'m Catalin.</strong>')
@@ -105,11 +98,10 @@ typewriter
   .typeString('<strong><span style="color: #0000008c;">Creative.</span></strong>')
   .pauseFor(1000)
   .deleteChars(9)
-  .typeString('<strong><span style="color: #0000008c;">Design.</span></strong>')
+  .typeString('<strong><span style="color: #0000008c;">Designer.</span></strong>')
   .pauseFor(1000)
   .deleteChars(7)
   // .deleteAll()
-  // .typeString('<strong> Developer.</strong>')
-  .typeString('<strong><span style="color: #0000008c;">Developer.</span></strong>')
+  .typeString('<strong><span style="color: #0000008c;">veloper.</span></strong>')
   .pauseFor(3000)
   .start();

@@ -13,7 +13,7 @@ body {
 
 .nav-link:hover {
   transition: all 0.4s ease-in-out;
-  color: #f44336 !important;
+  color: #000000 !important;
 }
 
 .container-fluid {
@@ -30,7 +30,7 @@ body {
   content: "";
   width: 0%;
   height: 2px;
-  background-color: black;
+  background-color: #000000;
   left: 50%;
   bottom: -10px;
   transition: all 0.35s ease-in-out;
@@ -121,7 +121,7 @@ body {
   margin: 0px 10px 0px 10px !important;
 }
 ._2 {
-  border-top: 1px solid black;
+  border-top: 1px solid #000000;
   margin: 0px 10px 0px 10px !important;
 }
 ._3 {
@@ -132,16 +132,17 @@ body {
   margin-bottom: 15px;
 }
 ._5 {
-  border-top: 1px solid black;
-  margin: 0px;
+  border-top: 1px solid #000000;
+  /* margin-top: 2rem !important; */
 }
 ._6 {
   padding: 100px 0px 0px 0px !important;
 }
+._7 {
+  text-align: center;
+}
 .inherit {
   /* height: 100vh; */
-  /* background-color: #f3f3f3; */
-  /* transition-duration: 0.2s; */
   margin-top: 8px;
 }
 .text {
@@ -157,23 +158,6 @@ h1 {
   font-weight: bold !important;
   animation-delay: 2.4s;
 }
-
-/* h1 {
-  animation: fadeInAnimation ease 1s;
-  animation-iteration-count: 2;
-  animation-fill-mode: forwards;
-}
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.btn-2 {
-  letter-spacing: 0;
-} */
 
 .btn-2:hover,
 .btn-2:active {
@@ -251,32 +235,20 @@ h1 {
 }
 .btn1 {
   outline: none;
-  /* padding: 20px; */
   display: block;
   width: 100%;
   height: 56px;
-  /* font-size: 20px; */
-  /* background-color: rgba(0, 0, 0, 0.55); */
   position: relative;
   border: none;
   transition: all 0.5s ease;
   background-color: transparent;
 }
 .fa {
-  color: black;
+  color: #000000;
   font-size: 1.25rem;
 }
 
 #app {
   font-size: 1.4rem;
-  padding: 20px;
-  /* box-shadow: 5px 5px 22px 5px #000000; */
-  /* border-radius: 20px; */
-  /* line-height: 78px;
-  min-height: 100px; */
-  /* border-left: 2px solid black;
-  border-right: 2px solid black; */
+  padding: 1.5rem;
 }
-/* .Typewriter__cursor {
-  display: none;
-} */

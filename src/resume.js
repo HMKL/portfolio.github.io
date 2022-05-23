@@ -4,6 +4,7 @@
 const getContainerFluid = document.querySelectorAll('.container-fluid');
 const getContainer = document.querySelectorAll('.container');
 const getRows = document.querySelectorAll('.row');
+const allP = document.querySelectorAll('p');
 const allA = document.querySelectorAll('#navleft > div > a');
 const addClass = document.querySelectorAll('#navleft > div');
 getContainerFluid[1].classList.add('_1');
@@ -50,19 +51,20 @@ const width = window.matchMedia('(max-width:769px)');
 
 function checkWidth(e) {
   if (e.matches) {
-    getRows[10].classList.add('_5', '_6');
+    getRows[10].classList.add('_5');
     getRows[10].classList.remove('_2');
-    // getRows[10].classList.remove('_2');
-    // getContainerFluid[4].classList.add('_3');
+    allP[5].setAttribute('class', '_7');
+    getContainerFluid[4].classList.add('_6');
     getContainerFluid[4].classList.remove('_3');
     allA.forEach((square) => {
       square.classList.add('text');
     });
   } else {
-    getRows[10].classList.remove('_5', '_6');
+    getRows[10].classList.remove('_5');
     getRows[10].classList.add('_2');
+    allP[5].removeAttribute('class', '_7');
     getContainerFluid[4].classList.add('_3');
-    // getContainerFluid[4].classList.remove('_6');
+    getContainerFluid[4].classList.remove('_6');
     allA.forEach((square) => {
       square.classList.remove('text');
     });
