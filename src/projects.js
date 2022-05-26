@@ -49,7 +49,7 @@ function checkWidth(e) {
   if (e.matches) {
     getContainerFluid[4].classList.add('_6');
     getContainerFluid[4].classList.remove('_3');
-    allP[0].setAttribute('class', '_7');
+    allP[2].setAttribute('class', '_7');
     allA.forEach((square) => {
       square.classList.add('text');
     });
@@ -59,7 +59,7 @@ function checkWidth(e) {
 
     getContainerFluid[4].classList.add('_3');
     getContainerFluid[4].classList.remove('_6');
-    allP[0].removeAttribute('class', '_7');
+    allP[2].removeAttribute('class', '_7');
     allA.forEach((square) => {
       square.classList.remove('text');
     });
