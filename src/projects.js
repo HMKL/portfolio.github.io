@@ -7,9 +7,9 @@ const getContainerFluid = document.querySelectorAll('.container-fluid');
 const collapseAdd = document.getElementById('testBtn');
 const allA = document.querySelectorAll('#navleft > div > a');
 getContainerFluid[1].classList.add('_1');
-const photo = document.querySelector('img').addEventListener('contextmenu', (p) => {
-  p.preventDefault();
-});
+// const photo = document.querySelector('img').addEventListener('contextmenu', (p) => {
+//   p.preventDefault();
+// });
 const addClass = document.querySelectorAll('#navleft > div');
 addClass.forEach((element) => {
   element.addEventListener('mouseenter', () => {
