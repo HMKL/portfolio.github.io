@@ -6,6 +6,7 @@ const getContainer = document.querySelectorAll('.container');
 const getContainerFluid = document.querySelectorAll('.container-fluid');
 const collapseAdd = document.getElementById('testBtn');
 const allA = document.querySelectorAll('#navleft > div > a');
+const getRows = document.querySelectorAll('.row');
 getContainerFluid[1].classList.add('_1');
 // const photo = document.querySelector('img').addEventListener('contextmenu', (p) => {
 //   p.preventDefault();
@@ -47,6 +48,8 @@ const width = window.matchMedia('(max-width:769px)');
 
 function checkWidth(e) {
   if (e.matches) {
+    getRows[1].classList.add('_5');
+    getRows[1].classList.remove('_2');
     getContainerFluid[4].classList.add('_6');
     getContainerFluid[4].classList.remove('_3');
     allP[3].setAttribute('class', '_7');
@@ -54,9 +57,10 @@ function checkWidth(e) {
       square.classList.add('text');
     });
   } else {
+    getRows[1].classList.remove('_5');
+    getRows[1].classList.add('_2');
     getContainer[0].style.display = 'block';
     document.querySelector('#testBtn').classList.add('navbar-toggler', 'collapsed');
-
     getContainerFluid[4].classList.add('_3');
     getContainerFluid[4].classList.remove('_6');
     allP[3].removeAttribute('class', '_7');
@@ -73,3 +77,5 @@ const cv = document.querySelectorAll('i');
 for (let a = 1; a < cv.length; a += 1) {
   cv[a].classList.add('fa');
 }
+
+console.log(getRows);
