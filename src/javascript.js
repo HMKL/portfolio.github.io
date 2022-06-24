@@ -1,14 +1,107 @@
-const _0x58caea = _0x3e24; (function (_0x2afe20, _0x79b611) { const _0x15133d = _0x3e24; const _0x1f8cb7 = _0x2afe20(); while ([]) { try { const _0x4b4f07 = -parseInt(_0x15133d(0x90)) / 0x1 + -parseInt(_0x15133d(0xa4)) / 0x2 * (-parseInt(_0x15133d(0x74)) / 0x3) + -parseInt(_0x15133d(0xa7)) / 0x4 + parseInt(_0x15133d(0x76)) / 0x5 * (-parseInt(_0x15133d(0x7d)) / 0x6) + -parseInt(_0x15133d(0x9f)) / 0x7 + -parseInt(_0x15133d(0x97)) / 0x8 + parseInt(_0x15133d(0x8a)) / 0x9; if (_0x4b4f07 === _0x79b611) break; else _0x1f8cb7.push(_0x1f8cb7.shift()); } catch (_0x1bfab3) { _0x1f8cb7.push(_0x1f8cb7.shift()); } } }(_0x20da, 0x87280)); function _0x20da() { const _0x2ad554 = ['contextmenu', 'pauseFor', '2koVEnW', 'innerHTML', 'prototype', '859292pgGYuM', 'img', 'warn', '<strong>I\x27m\x20Catalin.</strong>', 'inherit', 'querySelectorAll', 'flex-md-row', '<i\x20class=\x22fa-solid\x20fa-bars\x22></i>', 'display', '.container\x20>\x20div\x20>.row\x20>\x20div\x20', 'style', 'getElementById', 'classList', 'error', '__proto__', '{}.constructor(\x22return\x20this\x22)(\x20)', 'length', 'collapsed', '#testBtn\x20>\x20span', '<strong><span\x20style=\x22color:\x20#0000008c;\x22>Creative.</span></strong>', 'click', 'app', 'apply', 'return\x20(function()\x20', '3000453nStmDE', 'remove', '10fPGdom', 'start', 'removeAttribute', 'containerBtn', 'under', 'text', 'mouseenter', '129888qBZXvU', 'preventDefault', '(((.+)+)+)+$', 'querySelector', 'add', '#navleft\x20>\x20div', 'bind', 'mouseout', 'search', 'matches', '.row', '<strong><span\x20style=\x22color:\x20#0000008c;\x22>Designer.</span></strong>', 'forEach', '10093473OmSaJU', '.container-fluid', 'class', 'block', 'trace', 'log', '92848ybPelD', 'typeString', 'constructor', 'addEventListener', '#navleft\x20>\x20div\x20>\x20a', 'toString', '<i\x20class=\x22fa-solid\x20fa-grip-lines-vertical\x22></i>', '8233728gpDbIM', 'info', 'console', 'deleteChars', 'testBtn', '.btns\x20>\x20div', 'none', '(max-width:769px)', '1315055ZSMGsc', '.container', 'flex-column-reverse']; _0x20da = function () { return _0x2ad554; }; return _0x20da(); } const getDescription = document[_0x58caea(0xac)](_0x58caea(0xb0)); const allP = document[_0x58caea(0xac)]('p'); const getRows = document[_0x58caea(0xac)](_0x58caea(0x87)); const getcontainerBtn = document[_0x58caea(0xac)](_0x58caea(0x9c)); getcontainerBtn[0x0][_0x58caea(0x68)].add(_0x58caea(0x79)); const getContainer = document[_0x58caea(0xac)](_0x58caea(0xa0)); const getContainerFluid = document[_0x58caea(0xac)](_0x58caea(0x8b)); getContainerFluid[0x1][_0x58caea(0x68)].add('_1'); const photo = document[_0x58caea(0x80)](_0x58caea(0xa8)).addEventListener(_0x58caea(0xa2), (_0x434d2e) => { const _0x3134d7 = _0x58caea; _0x434d2e[_0x3134d7(0x7e)](); }); const addClass = document[_0x58caea(0xac)](_0x58caea(0x82)); addClass[_0x58caea(0x89)]((_0x59ae2e) => { const _0x5df429 = _0x58caea; _0x59ae2e[_0x5df429(0x93)](_0x5df429(0x7c), () => { const _0x835256 = _0x5df429; _0x59ae2e[_0x835256(0x68)][_0x835256(0x81)](_0x835256(0x7a)); }); }), addClass[_0x58caea(0x89)]((_0x4a2e3e) => { const _0x1d1999 = _0x58caea; _0x4a2e3e[_0x1d1999(0x93)](_0x1d1999(0x84), () => { const _0x21d170 = _0x1d1999; _0x4a2e3e[_0x21d170(0x78)](_0x21d170(0x8c), _0x21d170(0x7a)); }); }); let count = 0x0; const collapseAdd = document[_0x58caea(0x67)](_0x58caea(0x9b)); function _0x3e24(_0x470120, _0x8722f1) { const _0x35063c = _0x20da(); return _0x3e24 = function (_0x35080b, _0x129659) { _0x35080b -= 0x66; const _0x5e2e31 = _0x35063c[_0x35080b]; return _0x5e2e31; }, _0x3e24(_0x470120, _0x8722f1); }collapseAdd[_0x58caea(0x93)](_0x58caea(0x70), () => { const _0x43cc82 = _0x58caea; count += 0x1, count === 0x1 ? (document[_0x43cc82(0x80)]('#navbarCollapse')[_0x43cc82(0x68)][_0x43cc82(0x81)]('inherit'), getContainer[0x0][_0x43cc82(0x66)][_0x43cc82(0xaf)] = _0x43cc82(0x9d), getContainerFluid[0x2][_0x43cc82(0x66)].display = _0x43cc82(0x9d), getContainerFluid[0x3][_0x43cc82(0x66)].display = _0x43cc82(0x9d), document[_0x43cc82(0x80)]('#testBtn\x20>\x20span')[_0x43cc82(0xa5)] = _0x43cc82(0x96)) : (document[_0x43cc82(0x80)]('#navbarCollapse').classList[_0x43cc82(0x75)](_0x43cc82(0xab)), getContainer[0x0].style[_0x43cc82(0xaf)] = 'block', getContainerFluid[0x2][_0x43cc82(0x66)][_0x43cc82(0xaf)] = _0x43cc82(0x8d), getContainerFluid[0x3].style.display = _0x43cc82(0x8d), document.querySelector(_0x43cc82(0x6e)).innerHTML = _0x43cc82(0xae), count -= 0x2); }); const width = window.matchMedia(_0x58caea(0x9e)); const allA = document[_0x58caea(0xac)](_0x58caea(0x94)); function checkWidth(_0x14ce29) {
-  const _0xa1d031 = _0x58caea; const _0x5605db = (function () { let _0x42e9b9 = !![]; return function (_0x317d95, _0x132568) { const _0x267d1d = _0x42e9b9 ? function () { const _0x479bc8 = _0x3e24; if (_0x132568) { const _0x274c97 = _0x132568[_0x479bc8(0x72)](_0x317d95, arguments); return _0x132568 = null, _0x274c97; } } : function () {}; return _0x42e9b9 = ![], _0x267d1d; }; }()); const _0x174e55 = _0x5605db(this, () => {
-    const _0x82e11c = _0x3e24; return _0x174e55[_0x82e11c(0x95)]().search(_0x82e11c(0x7f))[_0x82e11c(0x95)]()[_0x82e11c(0x92)](_0x174e55)
-      [_0x82e11c(0x85)](_0x82e11c(0x7f));
-  }); _0x174e55(); const _0x1d07d7 = (function () { let _0x176078 = !![]; return function (_0x35f56f, _0xa0e163) { const _0x3482e6 = _0x176078 ? function () { if (_0xa0e163) { const _0x392d4f = _0xa0e163.apply(_0x35f56f, arguments); return _0xa0e163 = null, _0x392d4f; } } : function () {}; return _0x176078 = ![], _0x3482e6; }; }()); const _0x5a93ed = _0x1d07d7(this, () => { const _0x502483 = _0x3e24; const _0x40a9f7 = function () { const _0x23679f = _0x3e24; let _0x2a33cf; try { _0x2a33cf = Function(`${_0x23679f(0x73) + _0x23679f(0x6b)});`)(); } catch (_0x1a5cfc) { _0x2a33cf = window; } return _0x2a33cf; }; const _0x328b66 = _0x40a9f7(); const _0x276aad = _0x328b66[_0x502483(0x99)] = _0x328b66[_0x502483(0x99)] || {}; const _0x30ed99 = [_0x502483(0x8f), _0x502483(0xa9), _0x502483(0x98), _0x502483(0x69), 'exception', 'table', _0x502483(0x8e)]; for (let _0x2c477e = 0x0; _0x2c477e < _0x30ed99[_0x502483(0x6c)]; _0x2c477e++) { const _0x1ee696 = _0x1d07d7[_0x502483(0x92)][_0x502483(0xa6)][_0x502483(0x83)](_0x1d07d7); const _0x5decf0 = _0x30ed99[_0x2c477e]; const _0xef457f = _0x276aad[_0x5decf0] || _0x1ee696; _0x1ee696[_0x502483(0x6a)] = _0x1d07d7.bind(_0x1d07d7), _0x1ee696[_0x502483(0x95)] = _0xef457f.toString.bind(_0xef457f), _0x276aad[_0x5decf0] = _0x1ee696; } }); _0x5a93ed(), _0x14ce29[_0xa1d031(0x86)] ? (getRows[0x0][_0xa1d031(0x68)][_0xa1d031(0x81)](_0xa1d031(0xa1), _0xa1d031(0xad)), getRows[0x1].classList[_0xa1d031(0x81)]('_5'), getRows[0x1][_0xa1d031(0x68)].remove('_2'), getContainerFluid[0x4][_0xa1d031(0x68)][_0xa1d031(0x81)]('_6'), getContainerFluid[0x4].classList.remove('_3'), allP[0x0].setAttribute(_0xa1d031(0x8c), '_7'), allA[_0xa1d031(0x89)]((_0x99013a) => { const _0x3cd297 = _0xa1d031; _0x99013a[_0x3cd297(0x68)].add(_0x3cd297(0x7b)); })) : (getContainer[0x0][_0xa1d031(0x66)][_0xa1d031(0xaf)] = _0xa1d031(0x8d), document.querySelector('#testBtn').classList[_0xa1d031(0x81)]('navbar-toggler', _0xa1d031(0x6d)), getRows[0x0][_0xa1d031(0x68)][_0xa1d031(0x75)]('flex-column-reverse', _0xa1d031(0xad)), getRows[0x1][_0xa1d031(0x68)][_0xa1d031(0x75)]('_5'), getRows[0x1][_0xa1d031(0x68)][_0xa1d031(0x81)]('_2'), getContainerFluid[0x4][_0xa1d031(0x68)].add('_3'), getContainerFluid[0x4][_0xa1d031(0x68)][_0xa1d031(0x75)]('_6'), allP[0x0].removeAttribute(_0xa1d031(0x8c), '_7'), allA.forEach((_0x1f8820) => { const _0x2d8f67 = _0xa1d031; _0x1f8820[_0x2d8f67(0x68)][_0x2d8f67(0x75)](_0x2d8f67(0x7b)); }));
-}checkWidth(width), width.addEventListener('change', checkWidth); const cv = document[_0x58caea(0xac)]('i'); for (let a = 0x1; a < cv.length; a += 0x1) { cv[a].classList[_0x58caea(0x81)]('fa'); } const app = document.getElementById(_0x58caea(0x71)); const typewriter = new Typewriter(app, { cursor: '_' }); typewriter[_0x58caea(0xa3)](0x12c)[_0x58caea(0x91)](_0x58caea(0xaa))[_0x58caea(0xa3)](0x3e8)[_0x58caea(0x91)](_0x58caea(0x6f))
-  .pauseFor(0x3e8)
-  [_0x58caea(0x9a)](0x9)
-  [_0x58caea(0x91)](_0x58caea(0x88))
-  [_0x58caea(0xa3)](0x3e8)
-  [_0x58caea(0x9a)](0x7)
-  [_0x58caea(0x91)]('<strong><span\x20style=\x22color:\x20#0000008c;\x22>veloper.</span></strong>')
-  [_0x58caea(0xa3)](0xbb8)
-  [_0x58caea(0x77)]();
+/* eslint-disable linebreak-style */
+/* eslint-disable max-len */
+/* eslint-disable no-console */
+const getDescription = document.querySelectorAll('.container > div >.row > div ');
+const allP = document.querySelectorAll('p');
+const getRows = document.querySelectorAll('.row');
+const getcontainerBtn = document.querySelectorAll('.btns > div');
+getcontainerBtn[0].classList.add('containerBtn');
+const getContainer = document.querySelectorAll('.container');
+const getContainerFluid = document.querySelectorAll('.container-fluid');
+getContainerFluid[1].classList.add('_1');
+const photo = document.querySelector('img').addEventListener('contextmenu', (p) => {
+  p.preventDefault();
+});
+
+const addClass = document.querySelectorAll('#navleft > div');
+addClass.forEach((element) => {
+  element.addEventListener('mouseenter', () => {
+    element.classList.add('under');
+  });
+});
+
+addClass.forEach((element) => {
+  element.addEventListener('mouseout', () => {
+    element.removeAttribute('class', 'under');
+  });
+});
+
+let count = 0;
+const collapseAdd = document.getElementById('testBtn');
+collapseAdd.addEventListener('click', () => {
+  count += 1;
+  if (count === 1) {
+    document.querySelector('#navbarCollapse').classList.add('inherit');
+    getContainer[0].style.display = 'none';
+    getContainerFluid[2].style.display = 'none';
+    getContainerFluid[3].style.display = 'none';
+
+    document.querySelector('#testBtn > span').innerHTML = '<i class="fa-solid fa-grip-lines-vertical"></i>';
+  } else {
+    document.querySelector('#navbarCollapse').classList.remove('inherit');
+    getContainer[0].style.display = 'block';
+    getContainerFluid[2].style.display = 'block';
+    getContainerFluid[3].style.display = 'block';
+    document.querySelector('#testBtn > span').innerHTML = '<i class="fa-solid fa-bars"></i>';
+    count -= 2;
+  }
+});
+
+const width = window.matchMedia('(max-width:769px)');
+const allA = document.querySelectorAll('#navleft > div > a');
+
+function checkWidth(e) {
+  if (e.matches) {
+    getRows[0].classList.add('flex-column-reverse', 'flex-md-row');
+    getRows[1].classList.add('_5');
+    getRows[1].classList.remove('_2');
+    getContainerFluid[4].classList.add('_6');
+    getContainerFluid[4].classList.remove('_3');
+    allP[0].setAttribute('class', '_7');
+    allA.forEach((square) => {
+      square.classList.add('text');
+    });
+  } else {
+    getContainer[0].style.display = 'block';
+    document.querySelector('#testBtn').classList.add('navbar-toggler', 'collapsed');
+    getRows[0].classList.remove('flex-column-reverse', 'flex-md-row');
+    getRows[1].classList.remove('_5');
+    getRows[1].classList.add('_2');
+    getContainerFluid[4].classList.add('_3');
+    getContainerFluid[4].classList.remove('_6');
+    allP[0].removeAttribute('class', '_7');
+    allA.forEach((square) => {
+      square.classList.remove('text');
+    });
+  }
+}
+checkWidth(width);
+width.addEventListener('change', checkWidth);
+
+const cv = document.querySelectorAll('i');
+
+for (let a = 1; a < cv.length; a += 1) {
+  cv[a].classList.add('fa');
+}
+
+const app = document.getElementById('app');
+
+const typewriter = new Typewriter(app, {
+  // loop: true,
+  cursor: '_',
+});
+
+typewriter
+  .pauseFor(300)
+  .typeString('<strong>I\'m Catalin.</strong>')
+  .pauseFor(1000)
+  .typeString('<strong><span style="color: #0000008c;">Creative.</span></strong>')
+  .pauseFor(1000)
+  .deleteChars(9)
+  .typeString('<strong><span style="color: #0000008c;">Designer.</span></strong>')
+  .pauseFor(1000)
+  .deleteChars(7)
+  // .deleteAll()
+  .typeString('<strong><span style="color: #0000008c;">veloper.</span></strong>')
+  .pauseFor(3000)
+  .start();

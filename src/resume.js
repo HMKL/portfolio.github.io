@@ -1,6 +1,74 @@
-const _0x55650f = _0x344a; (function (_0x3bcd23, _0x1ce1f4) { const _0x27f656 = _0x344a; const _0x5977d9 = _0x3bcd23(); while ([]) { try { const _0x42e714 = -parseInt(_0x27f656(0x1e5)) / 0x1 + -parseInt(_0x27f656(0x1ee)) / 0x2 * (-parseInt(_0x27f656(0x1e4)) / 0x3) + -parseInt(_0x27f656(0x1d3)) / 0x4 + parseInt(_0x27f656(0x1ef)) / 0x5 + -parseInt(_0x27f656(0x1f4)) / 0x6 * (-parseInt(_0x27f656(0x1da)) / 0x7) + -parseInt(_0x27f656(0x1cd)) / 0x8 * (-parseInt(_0x27f656(0x202)) / 0x9) + -parseInt(_0x27f656(0x1df)) / 0xa; if (_0x42e714 === _0x1ce1f4) break; else _0x5977d9.push(_0x5977d9.shift()); } catch (_0x5a11a4) { _0x5977d9.push(_0x5977d9.shift()); } } }(_0xd88e, 0xcf03a)); const getContainerFluid = document[_0x55650f(0x1e0)]('.container-fluid'); const getContainer = document.querySelectorAll(_0x55650f(0x1ea)); const getRows = document[_0x55650f(0x1e0)]('.row'); const allP = document[_0x55650f(0x1e0)]('p'); const allA = document.querySelectorAll('#navleft\x20>\x20div\x20>\x20a'); const addClass = document.querySelectorAll(_0x55650f(0x1d9)); getContainerFluid[0x1][_0x55650f(0x1ed)][_0x55650f(0x1fe)]('_1'); function _0xd88e() { const _0x3eea7b = ['addEventListener', 'inherit', 'search', 'remove', '4554004OWLIPR', '<i\x20class=\x22fa-solid\x20fa-bars\x22></i>', 'removeAttribute', 'querySelector', 'display', 'table', '#navleft\x20>\x20div', '105287qvfwyj', 'click', 'change', 'mouseout', 'console', '3443870pPLveu', 'querySelectorAll', 'setAttribute', 'text', 'exception', '39XCXmXx', '190367ezaWMf', '#navbarCollapse', 'style', 'return\x20(function()\x20', 'under', '.container', 'forEach', 'matches', 'classList', '164110vXONKt', '2964155dgtOia', 'length', '#testBtn\x20>\x20span', 'info', 'trace', '18WoFeTp', 'getElementById', 'innerHTML', '<i\x20class=\x22fa-solid\x20fa-grip-lines-vertical\x22></i>', 'class', 'warn', 'apply', 'block', '__proto__', 'bind', 'add', 'error', 'toString', '(((.+)+)+)+$', '11034dMfyFV', '(max-width:769px)', 'matchMedia', 'none', '5328dmcuvc', 'log']; _0xd88e = function () { return _0x3eea7b; }; return _0xd88e(); } const cv = document[_0x55650f(0x1e0)]('i'); function _0x344a(_0x5917d4, _0x13bef3) { const _0xb94368 = _0xd88e(); return _0x344a = function (_0x4b3331, _0x457832) { _0x4b3331 -= 0x1cd; const _0x232dcd = _0xb94368[_0x4b3331]; return _0x232dcd; }, _0x344a(_0x5917d4, _0x13bef3); } for (let a = 0x1; a < cv.length; a += 0x1) { cv[a][_0x55650f(0x1ed)].add('fa'); }addClass[_0x55650f(0x1eb)]((_0x1745ca) => { const _0x34a08d = _0x55650f; _0x1745ca[_0x34a08d(0x1cf)]('mouseenter', () => { const _0x1f856f = _0x34a08d; _0x1745ca[_0x1f856f(0x1ed)][_0x1f856f(0x1fe)]('under'); }); }), addClass[_0x55650f(0x1eb)]((_0x4b0ec5) => { const _0x31c62c = _0x55650f; _0x4b0ec5[_0x31c62c(0x1cf)](_0x31c62c(0x1dd), () => { const _0x232981 = _0x31c62c; _0x4b0ec5.removeAttribute('class', _0x232981(0x1e9)); }); }); let count = 0x0; const collapseAdd = document[_0x55650f(0x1f5)]('testBtn'); collapseAdd.addEventListener(_0x55650f(0x1db), () => { const _0x14f1b5 = _0x55650f; count += 0x1, count === 0x1 ? (document.querySelector('#navbarCollapse').classList[_0x14f1b5(0x1fe)](_0x14f1b5(0x1d0)), getContainer[0x0][_0x14f1b5(0x1e7)][_0x14f1b5(0x1d7)] = _0x14f1b5(0x205), getContainerFluid[0x2][_0x14f1b5(0x1e7)][_0x14f1b5(0x1d7)] = _0x14f1b5(0x205), getContainerFluid[0x3][_0x14f1b5(0x1e7)][_0x14f1b5(0x1d7)] = _0x14f1b5(0x205), document[_0x14f1b5(0x1d6)]('#testBtn\x20>\x20span').innerHTML = _0x14f1b5(0x1f7)) : (document[_0x14f1b5(0x1d6)](_0x14f1b5(0x1e6))[_0x14f1b5(0x1ed)].remove('inherit'), getContainer[0x0][_0x14f1b5(0x1e7)][_0x14f1b5(0x1d7)] = _0x14f1b5(0x1fb), getContainerFluid[0x2].style[_0x14f1b5(0x1d7)] = _0x14f1b5(0x1fb), getContainerFluid[0x3][_0x14f1b5(0x1e7)].display = _0x14f1b5(0x1fb), document[_0x14f1b5(0x1d6)](_0x14f1b5(0x1f1))[_0x14f1b5(0x1f6)] = _0x14f1b5(0x1d4), count -= 0x2); }); const width = window[_0x55650f(0x204)](_0x55650f(0x203)); function checkWidth(_0x128e51) {
-  const _0x4ed4b4 = _0x55650f; const _0x6a7c7 = (function () { let _0x33aeb1 = !![]; return function (_0x30a737, _0x32b50a) { const _0x321649 = _0x33aeb1 ? function () { const _0x1347c3 = _0x344a; if (_0x32b50a) { const _0x53f1e2 = _0x32b50a[_0x1347c3(0x1fa)](_0x30a737, arguments); return _0x32b50a = null, _0x53f1e2; } } : function () {}; return _0x33aeb1 = ![], _0x321649; }; }()); const _0x500a7a = _0x6a7c7(this, () => {
-    const _0x5b1686 = _0x344a; return _0x500a7a[_0x5b1686(0x200)]()[_0x5b1686(0x1d1)]('(((.+)+)+)+$').toString().constructor(_0x500a7a)
-      [_0x5b1686(0x1d1)](_0x5b1686(0x201));
-  }); _0x500a7a(); const _0x496b89 = (function () { let _0x1fa6d9 = !![]; return function (_0x27c3d5, _0x3a334f) { const _0x3d41fe = _0x1fa6d9 ? function () { const _0x51628d = _0x344a; if (_0x3a334f) { const _0x1771cb = _0x3a334f[_0x51628d(0x1fa)](_0x27c3d5, arguments); return _0x3a334f = null, _0x1771cb; } } : function () {}; return _0x1fa6d9 = ![], _0x3d41fe; }; }()); const _0x504a70 = _0x496b89(this, () => { const _0x49c8ac = _0x344a; let _0x2b8087; try { const _0x212951 = Function(`${_0x49c8ac(0x1e8)}{}.constructor(\x22return\x20this\x22)(\x20)` + ');'); _0x2b8087 = _0x212951(); } catch (_0x4ffcf9) { _0x2b8087 = window; } const _0x280702 = _0x2b8087[_0x49c8ac(0x1de)] = _0x2b8087.console || {}; const _0x427105 = [_0x49c8ac(0x1ce), _0x49c8ac(0x1f9), _0x49c8ac(0x1f2), _0x49c8ac(0x1ff), _0x49c8ac(0x1e3), _0x49c8ac(0x1d8), _0x49c8ac(0x1f3)]; for (let _0xd3f9d5 = 0x0; _0xd3f9d5 < _0x427105[_0x49c8ac(0x1f0)]; _0xd3f9d5++) { const _0x85e67e = _0x496b89.constructor.prototype[_0x49c8ac(0x1fd)](_0x496b89); const _0x1dfc6f = _0x427105[_0xd3f9d5]; const _0x333a3b = _0x280702[_0x1dfc6f] || _0x85e67e; _0x85e67e[_0x49c8ac(0x1fc)] = _0x496b89.bind(_0x496b89), _0x85e67e[_0x49c8ac(0x200)] = _0x333a3b.toString[_0x49c8ac(0x1fd)](_0x333a3b), _0x280702[_0x1dfc6f] = _0x85e67e; } }); _0x504a70(), _0x128e51[_0x4ed4b4(0x1ec)] ? (getRows[0xa].classList[_0x4ed4b4(0x1fe)]('_5'), getRows[0xa].classList[_0x4ed4b4(0x1d2)]('_2'), allP[0x5][_0x4ed4b4(0x1e1)]('class', '_7'), getContainerFluid[0x4][_0x4ed4b4(0x1ed)][_0x4ed4b4(0x1fe)]('_6'), getContainerFluid[0x4][_0x4ed4b4(0x1ed)][_0x4ed4b4(0x1d2)]('_3'), allA[_0x4ed4b4(0x1eb)]((_0x245004) => { const _0x1ca47d = _0x4ed4b4; _0x245004[_0x1ca47d(0x1ed)].add('text'); })) : (getRows[0xa][_0x4ed4b4(0x1ed)][_0x4ed4b4(0x1d2)]('_5'), getRows[0xa][_0x4ed4b4(0x1ed)][_0x4ed4b4(0x1fe)]('_2'), allP[0x5][_0x4ed4b4(0x1d5)](_0x4ed4b4(0x1f8), '_7'), getContainerFluid[0x4].classList[_0x4ed4b4(0x1fe)]('_3'), getContainerFluid[0x4][_0x4ed4b4(0x1ed)].remove('_6'), allA[_0x4ed4b4(0x1eb)]((_0x41f986) => { const _0x3ce4c1 = _0x4ed4b4; _0x41f986[_0x3ce4c1(0x1ed)].remove(_0x3ce4c1(0x1e2)); }));
-}checkWidth(width), width.addEventListener(_0x55650f(0x1dc), checkWidth);
+/* eslint-disable linebreak-style */
+/* eslint-disable max-len */
+/* eslint-disable no-console */
+const getContainerFluid = document.querySelectorAll('.container-fluid');
+const getContainer = document.querySelectorAll('.container');
+const getRows = document.querySelectorAll('.row');
+const allP = document.querySelectorAll('p');
+const allA = document.querySelectorAll('#navleft > div > a');
+const addClass = document.querySelectorAll('#navleft > div');
+getContainerFluid[1].classList.add('_1');
+const cv = document.querySelectorAll('i');
+
+for (let a = 1; a < cv.length; a += 1) {
+  cv[a].classList.add('fa');
+}
+
+addClass.forEach((element) => {
+  element.addEventListener('mouseenter', () => {
+    element.classList.add('under');
+  });
+});
+
+addClass.forEach((element) => {
+  element.addEventListener('mouseout', () => {
+    element.removeAttribute('class', 'under');
+  });
+});
+
+let count = 0;
+const collapseAdd = document.getElementById('testBtn');
+collapseAdd.addEventListener('click', () => {
+  count += 1;
+  if (count === 1) {
+    document.querySelector('#navbarCollapse').classList.add('inherit');
+    getContainer[0].style.display = 'none';
+    getContainerFluid[2].style.display = 'none';
+    getContainerFluid[3].style.display = 'none';
+
+    document.querySelector('#testBtn > span').innerHTML = '<i class="fa-solid fa-grip-lines-vertical"></i>';
+  } else {
+    document.querySelector('#navbarCollapse').classList.remove('inherit');
+    getContainer[0].style.display = 'block';
+    getContainerFluid[2].style.display = 'block';
+    getContainerFluid[3].style.display = 'block';
+    document.querySelector('#testBtn > span').innerHTML = '<i class="fa-solid fa-bars"></i>';
+    count -= 2;
+  }
+});
+
+const width = window.matchMedia('(max-width:769px)');
+
+function checkWidth(e) {
+  if (e.matches) {
+    getRows[10].classList.add('_5');
+    getRows[10].classList.remove('_2');
+    allP[5].setAttribute('class', '_7');
+    getContainerFluid[4].classList.add('_6');
+    getContainerFluid[4].classList.remove('_3');
+    allA.forEach((square) => {
+      square.classList.add('text');
+    });
+  } else {
+    getRows[10].classList.remove('_5');
+    getRows[10].classList.add('_2');
+    allP[5].removeAttribute('class', '_7');
+    getContainerFluid[4].classList.add('_3');
+    getContainerFluid[4].classList.remove('_6');
+    allA.forEach((square) => {
+      square.classList.remove('text');
+    });
+  }
+}
+checkWidth(width);
+width.addEventListener('change', checkWidth);
