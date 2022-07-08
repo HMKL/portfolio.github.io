@@ -1,9 +1,107 @@
-const _0x136c0b = _0x53b1; (function (_0x5ebcec, _0x7d8035) { const _0xd18eeb = _0x53b1; const _0x3e25c5 = _0x5ebcec(); while ([]) { try { const _0x1e9e24 = parseInt(_0xd18eeb(0x1e4)) / 0x1 * (-parseInt(_0xd18eeb(0x1e3)) / 0x2) + -parseInt(_0xd18eeb(0x1d8)) / 0x3 * (parseInt(_0xd18eeb(0x1bb)) / 0x4) + -parseInt(_0xd18eeb(0x1b7)) / 0x5 * (-parseInt(_0xd18eeb(0x1cc)) / 0x6) + parseInt(_0xd18eeb(0x1cf)) / 0x7 + -parseInt(_0xd18eeb(0x1db)) / 0x8 + -parseInt(_0xd18eeb(0x1d5)) / 0x9 + parseInt(_0xd18eeb(0x1b6)) / 0xa * (parseInt(_0xd18eeb(0x1ea)) / 0xb); if (_0x1e9e24 === _0x7d8035) break; else _0x3e25c5.push(_0x3e25c5.shift()); } catch (_0x5986b0) { _0x3e25c5.push(_0x3e25c5.shift()); } } }(_0x2cf9, 0x3f52a)); const getDescription = document.querySelectorAll(_0x136c0b(0x1b8)); const allP = document.querySelectorAll('p'); const getRows = document[_0x136c0b(0x1de)](_0x136c0b(0x1ce)); const getcontainerBtn = document[_0x136c0b(0x1de)](_0x136c0b(0x1bf)); getcontainerBtn[0x0][_0x136c0b(0x1cd)][_0x136c0b(0x1ef)](_0x136c0b(0x1d0)); const getContainer = document[_0x136c0b(0x1de)](_0x136c0b(0x1d4)); const getContainerFluid = document[_0x136c0b(0x1de)](_0x136c0b(0x1c5)); getContainerFluid[0x1].classList[_0x136c0b(0x1ef)]('_1'); const photo = document[_0x136c0b(0x1e7)]('img').addEventListener(_0x136c0b(0x1e0), (_0x4cf0a7) => { _0x4cf0a7.preventDefault(); }); const addClass = document.querySelectorAll('#navleft\x20>\x20div'); function _0x2cf9() { const _0xafeafd = ['11mFKTGd', 'mouseout', 'none', 'style', 'block', 'add', 'innerHTML', '8855270MiqEEd', '781035RncwDM', '.container\x20>\x20div\x20>.row\x20>\x20div\x20', 'mouseenter', '<i\x20class=\x22fa-solid\x20fa-grip-lines-vertical\x22></i>', '24UPzhuC', '<strong>I\x27m\x20Catalin.</strong>', 'flex-md-row', '<strong><span\x20style=\x22color:\x20#0000008c;\x22>Creative.</span></strong>', '.btns\x20>\x20div', 'forEach', 'flex-column-reverse', '<i\x20class=\x22fa-solid\x20fa-bars\x22></i>', 'addEventListener', 'getElementById', '.container-fluid', 'remove', 'typeString', 'matchMedia', '#navleft\x20>\x20div\x20>\x20a', '<strong><span\x20style=\x22color:\x20#0000008c;\x22>Designer.</span></strong>', 'class', '12MogbuE', 'classList', '.row', '2378558BbGvxu', 'containerBtn', '(max-width:769px)', 'under', 'collapsed', '.container', '4064535McpuSX', 'click', 'navbar-toggler', '141054ZnHrDm', 'removeAttribute', '#testBtn\x20>\x20span', '2127192ZhYXLD', 'inherit', 'length', 'querySelectorAll', 'setAttribute', 'contextmenu', 'pauseFor', '#navbarCollapse', '2eblOKf', '278743XHOQlP', 'app', 'display', 'querySelector', '<strong><span\x20style=\x22color:\x20#0000008c;\x22>veloper.</span></strong>', 'matches']; _0x2cf9 = function () { return _0xafeafd; }; return _0x2cf9(); }addClass[_0x136c0b(0x1c0)]((_0x27a792) => { const _0x46907a = _0x136c0b; _0x27a792[_0x46907a(0x1c3)](_0x46907a(0x1b9), () => { const _0x3758fc = _0x46907a; _0x27a792.classList[_0x3758fc(0x1ef)](_0x3758fc(0x1d2)); }); }), addClass[_0x136c0b(0x1c0)]((_0x562623) => { const _0x4df25c = _0x136c0b; _0x562623[_0x4df25c(0x1c3)](_0x4df25c(0x1eb), () => { const _0x541cd5 = _0x4df25c; _0x562623[_0x541cd5(0x1d9)](_0x541cd5(0x1cb), _0x541cd5(0x1d2)); }); }); let count = 0x0; const collapseAdd = document[_0x136c0b(0x1c4)]('testBtn'); collapseAdd[_0x136c0b(0x1c3)](_0x136c0b(0x1d6), () => { const _0x1d9bea = _0x136c0b; count += 0x1, count === 0x1 ? (document[_0x1d9bea(0x1e7)]('#navbarCollapse')[_0x1d9bea(0x1cd)][_0x1d9bea(0x1ef)]('inherit'), getContainer[0x0][_0x1d9bea(0x1ed)][_0x1d9bea(0x1e6)] = _0x1d9bea(0x1ec), getContainerFluid[0x2][_0x1d9bea(0x1ed)][_0x1d9bea(0x1e6)] = _0x1d9bea(0x1ec), getContainerFluid[0x3][_0x1d9bea(0x1ed)].display = _0x1d9bea(0x1ec), document[_0x1d9bea(0x1e7)]('#testBtn\x20>\x20span').innerHTML = _0x1d9bea(0x1ba)) : (document[_0x1d9bea(0x1e7)](_0x1d9bea(0x1e2))[_0x1d9bea(0x1cd)][_0x1d9bea(0x1c6)](_0x1d9bea(0x1dc)), getContainer[0x0][_0x1d9bea(0x1ed)][_0x1d9bea(0x1e6)] = _0x1d9bea(0x1ee), getContainerFluid[0x2][_0x1d9bea(0x1ed)][_0x1d9bea(0x1e6)] = _0x1d9bea(0x1ee), getContainerFluid[0x3][_0x1d9bea(0x1ed)][_0x1d9bea(0x1e6)] = _0x1d9bea(0x1ee), document[_0x1d9bea(0x1e7)](_0x1d9bea(0x1da))[_0x1d9bea(0x1b5)] = _0x1d9bea(0x1c2), count -= 0x2); }); const width = window[_0x136c0b(0x1c8)](_0x136c0b(0x1d1)); const allA = document.querySelectorAll(_0x136c0b(0x1c9)); function checkWidth(_0xb39af1) { const _0x5d66d9 = _0x136c0b; _0xb39af1[_0x5d66d9(0x1e9)] ? (getRows[0x0].classList[_0x5d66d9(0x1ef)](_0x5d66d9(0x1c1), 'flex-md-row'), getRows[0x1].classList[_0x5d66d9(0x1ef)]('_5'), getRows[0x1][_0x5d66d9(0x1cd)].remove('_2'), getContainerFluid[0x4][_0x5d66d9(0x1cd)].add('_6'), getContainerFluid[0x4][_0x5d66d9(0x1cd)].remove('_3'), allP[0x0][_0x5d66d9(0x1df)](_0x5d66d9(0x1cb), '_7'), allA[_0x5d66d9(0x1c0)]((_0x357cf0) => { const _0x5ee503 = _0x5d66d9; _0x357cf0.classList[_0x5ee503(0x1ef)]('text'); })) : (getContainer[0x0].style[_0x5d66d9(0x1e6)] = _0x5d66d9(0x1ee), document[_0x5d66d9(0x1e7)]('#testBtn')[_0x5d66d9(0x1cd)][_0x5d66d9(0x1ef)](_0x5d66d9(0x1d7), _0x5d66d9(0x1d3)), getRows[0x0][_0x5d66d9(0x1cd)][_0x5d66d9(0x1c6)](_0x5d66d9(0x1c1), _0x5d66d9(0x1bd)), getRows[0x1].classList.remove('_5'), getRows[0x1][_0x5d66d9(0x1cd)][_0x5d66d9(0x1ef)]('_2'), getContainerFluid[0x4][_0x5d66d9(0x1cd)].add('_3'), getContainerFluid[0x4][_0x5d66d9(0x1cd)][_0x5d66d9(0x1c6)]('_6'), allP[0x0][_0x5d66d9(0x1d9)](_0x5d66d9(0x1cb), '_7'), allA[_0x5d66d9(0x1c0)]((_0x47e09b) => { const _0x1e8342 = _0x5d66d9; _0x47e09b.classList[_0x1e8342(0x1c6)]('text'); })); }checkWidth(width), width[_0x136c0b(0x1c3)]('change', checkWidth); const cv = document[_0x136c0b(0x1de)]('i'); for (let a = 0x1; a < cv[_0x136c0b(0x1dd)]; a += 0x1) { cv[a][_0x136c0b(0x1cd)].add('fa'); } function _0x53b1(_0x23ace0, _0x40d2fa) { const _0x2cf9d1 = _0x2cf9(); return _0x53b1 = function (_0x53b14e, _0x3f27f5) { _0x53b14e -= 0x1b5; const _0xcb9e8c = _0x2cf9d1[_0x53b14e]; return _0xcb9e8c; }, _0x53b1(_0x23ace0, _0x40d2fa); } const app = document.getElementById(_0x136c0b(0x1e5)); const typewriter = new Typewriter(app, { cursor: '_' }); typewriter[_0x136c0b(0x1e1)](0x12c).typeString(_0x136c0b(0x1bc))[_0x136c0b(0x1e1)](0x3e8)[_0x136c0b(0x1c7)](_0x136c0b(0x1be))
-  .pauseFor(0x3e8)
-  .deleteChars(0x9)
-  [_0x136c0b(0x1c7)](_0x136c0b(0x1ca))
-  [_0x136c0b(0x1e1)](0x3e8)
-  .deleteChars(0x7)
-  [_0x136c0b(0x1c7)](_0x136c0b(0x1e8))
-  [_0x136c0b(0x1e1)](0xbb8)
+/* eslint-disable linebreak-style */
+/* eslint-disable max-len */
+/* eslint-disable no-console */
+const getDescription = document.querySelectorAll('.container > div >.row > div ');
+const allP = document.querySelectorAll('p');
+const getRows = document.querySelectorAll('.row');
+const getcontainerBtn = document.querySelectorAll('.btns > div');
+getcontainerBtn[0].classList.add('containerBtn');
+const getContainer = document.querySelectorAll('.container');
+const getContainerFluid = document.querySelectorAll('.container-fluid');
+getContainerFluid[1].classList.add('_1');
+const photo = document.querySelector('img').addEventListener('contextmenu', (p) => {
+  p.preventDefault();
+});
+
+const addClass = document.querySelectorAll('#navleft > div');
+addClass.forEach((element) => {
+  element.addEventListener('mouseenter', () => {
+    element.classList.add('under');
+  });
+});
+
+addClass.forEach((element) => {
+  element.addEventListener('mouseout', () => {
+    element.removeAttribute('class', 'under');
+  });
+});
+
+let count = 0;
+const collapseAdd = document.getElementById('testBtn');
+collapseAdd.addEventListener('click', () => {
+  count += 1;
+  if (count === 1) {
+    document.querySelector('#navbarCollapse').classList.add('inherit');
+    getContainer[0].style.display = 'none';
+    getContainerFluid[2].style.display = 'none';
+    getContainerFluid[3].style.display = 'none';
+
+    document.querySelector('#testBtn > span').innerHTML = '<i class="fa-solid fa-grip-lines-vertical"></i>';
+  } else {
+    document.querySelector('#navbarCollapse').classList.remove('inherit');
+    getContainer[0].style.display = 'block';
+    getContainerFluid[2].style.display = 'block';
+    getContainerFluid[3].style.display = 'block';
+    document.querySelector('#testBtn > span').innerHTML = '<i class="fa-solid fa-bars"></i>';
+    count -= 2;
+  }
+});
+
+const width = window.matchMedia('(max-width:769px)');
+const allA = document.querySelectorAll('#navleft > div > a');
+
+function checkWidth(e) {
+  if (e.matches) {
+    getRows[0].classList.add('flex-column-reverse', 'flex-md-row');
+    getRows[1].classList.add('_5');
+    getRows[1].classList.remove('_2');
+    getContainerFluid[4].classList.add('_6');
+    getContainerFluid[4].classList.remove('_3');
+    allP[0].setAttribute('class', '_7');
+    allA.forEach((square) => {
+      square.classList.add('text');
+    });
+  } else {
+    getContainer[0].style.display = 'block';
+    document.querySelector('#testBtn').classList.add('navbar-toggler', 'collapsed');
+    getRows[0].classList.remove('flex-column-reverse', 'flex-md-row');
+    getRows[1].classList.remove('_5');
+    getRows[1].classList.add('_2');
+    getContainerFluid[4].classList.add('_3');
+    getContainerFluid[4].classList.remove('_6');
+    allP[0].removeAttribute('class', '_7');
+    allA.forEach((square) => {
+      square.classList.remove('text');
+    });
+  }
+}
+checkWidth(width);
+width.addEventListener('change', checkWidth);
+
+const cv = document.querySelectorAll('i');
+
+for (let a = 1; a < cv.length; a += 1) {
+  cv[a].classList.add('fa');
+}
+
+const app = document.getElementById('app');
+
+const typewriter = new Typewriter(app, {
+  // loop: true,
+  cursor: '_',
+});
+
+typewriter
+  .pauseFor(300)
+  .typeString('<strong>I\'m Catalin.</strong>')
+  .pauseFor(1000)
+  .typeString('<strong><span style="color: #0000008c;">Creative.</span></strong>')
+  .pauseFor(1000)
+  .deleteChars(9)
+  .typeString('<strong><span style="color: #0000008c;">Designer.</span></strong>')
+  .pauseFor(1000)
+  .deleteChars(7)
+  // .deleteAll()
+  .typeString('<strong><span style="color: #0000008c;">veloper.</span></strong>')
+  .pauseFor(3000)
   .start();
